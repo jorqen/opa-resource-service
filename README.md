@@ -16,6 +16,10 @@ checked against a Rego policy on every request.
 The Rego query is compiled once at startup with `PrepareForEval` and reused for
 every request.
 
+> The OPA SDK is imported from `github.com/open-policy-agent/opa/v1/rego` — the
+> non-deprecated v1.x path with the same API as the `opa/rego` package named in
+> the brief (the older path is flagged as deprecated by `staticcheck`).
+
 ### Policy
 
 [`policy/authz.rego`](policy/authz.rego):
