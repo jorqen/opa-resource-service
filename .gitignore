@@ -1,0 +1,4 @@
+/server
+/opa-resource-service
+*.test
+*.out
